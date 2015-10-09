@@ -17,7 +17,7 @@ peakfinder.m is not my work, see code for credits
 The data used for this publication is available at: http://tinyurl.com/p7eculs
 
 Workflow:
-Once the eigenshape time series is ready the data should be structured as in the example data files (e.g. CSAgar01.mat). The fields are explained in the input/output of various functions. Once you have your data ready apply the appropriate action segmentation algorithm. The actions corresponding to the experiments will put into a folder. Next run the  runCC.m within the CCtoolbox folder to build the statistical model of the data. The final models that I have created (and the data at the intermediate steps) is available along with the original data  at http://tinyurl.com/p7eculs
+Once the eigenshape time series is ready the data should be structured as in the example data files (e.g. CSAgar01.mat). The fields are explained in the input/output of various functions. Once you have your data ready apply the appropriate action segmentation algorithm (worm/maggot). Next run the  runCC.m (CCtoolbox folder) to build the statistical model of the data. The final models that I have created (and the data at the intermediate steps) is available along with the original data  at http://tinyurl.com/p7eculs
 
 For any further questions or bug report about this code, please email Balazs Szigeti: 
 b{dot}szigeti{at}sms{dot}ed{dot}ac{dot}uk
